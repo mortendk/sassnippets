@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+@include breakpoint(${1:\$mobile}){
+  .${2:snippet}{ ${3:css} }
+}//breaktpoint: ${1:breakpoint}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>breakpoint</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.scss</scope>
+</snippet>
